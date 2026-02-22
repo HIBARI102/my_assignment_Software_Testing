@@ -7,7 +7,7 @@ class CaesarCipherTest(unittest.TestCase):
         # Arrange: ทดสอบตัวพิมพ์เล็ก พิมพ์ใหญ่ และอักขระพิเศษ (-)
         s = "middle-Outz"
         k = 2
-        expected_output = "okffng-Qwbg"
+        expected_output = "okffng-Qwvb"
         # Act
         result = caesarCipher(s, k)
         # Assert
@@ -17,7 +17,7 @@ class CaesarCipherTest(unittest.TestCase):
         # Arrange: ทดสอบกรณี k > 26 (87 % 26 = 9)
         s = "Always-Look-on-the-Bright-Side-of-Life"
         k = 87
-        expected_output = "Fqbfdx-Qtpp-xw-ymj-Gwnlmy-Xnij-tk-Qnkj"
+        expected_output = "Jufjhb-Uxxt-xw-cqn-Karpqc-Brmn-xo-Uron"
         # Act
         result = caesarCipher(s, k)
         # Assert
